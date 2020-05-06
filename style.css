@@ -1,0 +1,186 @@
+body {
+    background-color: rgb(235, 237, 238);
+    width: auto;
+    font-family: 'Assistant', sans-serif;;
+    
+}
+
+nav {
+    width: auto;
+    height: auto;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+     
+}
+.arrow {
+   padding: 0 2% ;
+  
+}
+
+.arrow:hover {
+    transform: scale(1.2); 
+}
+    
+.homeLink a {
+    font-weight: bolder;
+    text-decoration: none;
+    transition: background-color .5s;
+    color: rgb(37, 44, 44);
+    margin-left: 50px;
+}
+
+.homeLink a:hover {
+    color: rgb(134, 29, 219);
+}
+
+
+.socialLinks {
+   
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-right: 2%;
+
+}
+#fb:hover{
+    transform: scale(1.2);  
+   
+}
+
+#tweeter:hover {
+    transform: scale(1.2); 
+   
+}
+
+
+.backwidth {
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+.headerArea h1 {
+    font-size: 50px;
+    
+}
+
+.headerArea p {
+    margin: -15px 0 50px 0px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.searchBox{
+    box-shadow: -3px 5px 12px rgb(207, 207, 207) ;
+    border-radius: 8px;
+
+}
+#searchBox {
+    width: 100%;
+    height: 60px;
+border: none;
+border-radius: 3px;
+   
+}
+
+.sponsors {
+    /* carsole of quotes */
+    border: orangered 2px solid;
+    height: 100px;
+    margin: 35px 0px;
+}
+
+.flexBox  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
+    flex-direction: row;
+   
+    }
+    
+
+.boxTop {
+    width: 21%;
+    height: 55px;
+    flex-direction: row;
+    text-align: left;
+    display: flex;
+    padding-left: 2%;
+    align-items: center;
+    margin-bottom: 12px;
+    background-color: rgba(87, 5, 87, 0.699);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+ }
+
+ .boxTop:hover {
+    background-color: teal;
+    transition-duration: 3.5s; 
+ }   
+
+.boxBottom {
+    width: 21%;
+    height: 55px;
+    flex-direction: row;
+    text-align: left;
+    display: flex;
+    padding-left: 2%;
+    align-items: center;
+    margin-bottom: 12px;
+    background-color: rgba(87, 5, 87, 0.699);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.boxBottom:hover {
+    background-color: teal;
+    transition-duration: 3.5s;
+}
+
+.dot {
+    height: 8px;
+  width: 8px;
+  background-color: rgb(39, 180, 150);
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.dot:hover {
+    background-color: rgb(255, 255, 255);
+     transition-duration: .9s;
+}
+
+h4 {
+    text-align: left;
+    border-bottom: 1px solid rgb(78, 83, 83);;
+    margin: 40px 0 20px 5px;
+    font-size: x-large;
+    color: rgb(107, 63, 107);
+}
+
+#recentlyUpdatedBox, #analyticsBox {
+    display: flex;
+    width: 100%;      
+}
+
+.list {
+    flex: 1;
+    flex-direction: column;
+    text-align: left; 
+}
+
+.list div{  
+    margin: 12px 0 0 20px;
+}
+
+
+
+
+
